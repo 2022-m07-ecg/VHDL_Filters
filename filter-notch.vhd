@@ -50,8 +50,8 @@ ENTITY filter_notch IS
    PORT( clk                             :   IN    std_logic; 
          clk_enable                      :   IN    std_logic; 
          reset                           :   IN    std_logic; 
-         filter_in                       :   IN    integer; -- double
-         filter_out                      :   OUT   integer  -- double
+         filter_in                       :   IN    std_logic_vector(13 downto 0); -- double
+         filter_out                      :   OUT   std_logic_vector(13 downto 0)  -- double
          );
 
 END filter_notch;
@@ -122,7 +122,7 @@ BEGIN
       input_register <= 0;
     ELSIF clk'event AND clk = '1' THEN
       IF clk_enable = '1' THEN
-        input_register <= filter_in;
+        input_register <= to_integer(unsigned(filter_in));
       END IF;
     END IF; 
   END PROCESS input_reg_process;
@@ -230,5 +230,5 @@ BEGIN
   END PROCESS Output_Register_process;
 
   -- Assignment Statements
-  filter_out <= output_register;
+  filter_out <= std_logic_vector(to_unsigned(output_register,13));
 END rtl;

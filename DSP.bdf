@@ -163,7 +163,7 @@ agreement for further details.
 (symbol
 	(rect 496 384 704 496)
 	(text "filter_highpass" (rect 5 0 76 12)(font "Arial" ))
-	(text "inst1" (rect 8 96 30 113)(font "Intel Clear" ))
+	(text "inst1" (rect 8 96 31 108)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -188,15 +188,15 @@ agreement for further details.
 	(port
 		(pt 0 80)
 		(input)
-		(text "filter_in[31..0]" (rect 0 0 68 12)(font "Arial" ))
-		(text "filter_in[31..0]" (rect 21 75 89 87)(font "Arial" ))
+		(text "filter_in[13..0]" (rect 0 0 68 12)(font "Arial" ))
+		(text "filter_in[13..0]" (rect 21 75 89 87)(font "Arial" ))
 		(line (pt 0 80)(pt 16 80)(line_width 3))
 	)
 	(port
 		(pt 208 32)
 		(output)
-		(text "filter_out[31..0]" (rect 0 0 75 12)(font "Arial" ))
-		(text "filter_out[31..0]" (rect 124 27 199 39)(font "Arial" ))
+		(text "filter_out[13..0]" (rect 0 0 75 12)(font "Arial" ))
+		(text "filter_out[13..0]" (rect 124 27 187 39)(font "Arial" ))
 		(line (pt 208 32)(pt 192 32)(line_width 3))
 	)
 	(drawing
@@ -206,7 +206,7 @@ agreement for further details.
 (symbol
 	(rect 824 384 1032 496)
 	(text "filter_notch" (rect 5 0 60 12)(font "Arial" ))
-	(text "inst2" (rect 8 96 30 113)(font "Intel Clear" ))
+	(text "inst2" (rect 8 96 31 108)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -231,15 +231,15 @@ agreement for further details.
 	(port
 		(pt 0 80)
 		(input)
-		(text "filter_in[31..0]" (rect 0 0 68 12)(font "Arial" ))
-		(text "filter_in[31..0]" (rect 21 75 89 87)(font "Arial" ))
+		(text "filter_in[13..0]" (rect 0 0 68 12)(font "Arial" ))
+		(text "filter_in[13..0]" (rect 21 75 89 87)(font "Arial" ))
 		(line (pt 0 80)(pt 16 80)(line_width 3))
 	)
 	(port
 		(pt 208 32)
 		(output)
-		(text "filter_out[31..0]" (rect 0 0 75 12)(font "Arial" ))
-		(text "filter_out[31..0]" (rect 124 27 199 39)(font "Arial" ))
+		(text "filter_out[13..0]" (rect 0 0 75 12)(font "Arial" ))
+		(text "filter_out[13..0]" (rect 124 27 187 39)(font "Arial" ))
 		(line (pt 208 32)(pt 192 32)(line_width 3))
 	)
 	(drawing
