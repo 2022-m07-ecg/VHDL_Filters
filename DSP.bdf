@@ -20,6 +20,102 @@ authorized distributors.  Please refer to the applicable
 agreement for further details.
 */
 (header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect -144 88 32 104)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "pin_name1" (rect 9 0 62 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -144 128 24 144)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "pin_name2" (rect 5 0 59 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -144 144 24 160)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "pin_name3" (rect 5 0 59 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -144 160 24 176)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "pin_name4" (rect 5 0 59 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -144 176 24 192)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "pin_name5" (rect 5 0 59 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -144 368 24 384)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "pin_name6" (rect 5 0 59 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
 (symbol
 	(rect 160 24 432 408)
 	(text "ADC" (rect 123 -1 154 15)(font "Arial" (font_size 10)))
@@ -277,10 +373,6 @@ agreement for further details.
 	(bus)
 )
 (connector
-	(pt 160 376)
-	(pt 120 376)
-)
-(connector
 	(pt 120 376)
 	(pt 120 568)
 )
@@ -325,22 +417,6 @@ agreement for further details.
 	(pt 744 592)
 )
 (connector
-	(pt 160 96)
-	(pt 64 96)
-)
-(connector
-	(pt 64 96)
-	(pt 64 592)
-)
-(connector
-	(pt 64 592)
-	(pt 472 592)
-)
-(connector
-	(pt 472 592)
-	(pt 744 592)
-)
-(connector
 	(pt 496 432)
 	(pt 448 432)
 )
@@ -360,5 +436,51 @@ agreement for further details.
 	(pt 448 264)
 	(pt 768 264)
 )
+(connector
+	(pt 24 136)
+	(pt 160 136)
+)
+(connector
+	(pt 24 152)
+	(pt 160 152)
+)
+(connector
+	(pt 24 168)
+	(pt 160 168)
+)
+(connector
+	(pt 24 184)
+	(pt 160 184)
+)
+(connector
+	(pt 64 96)
+	(pt 64 592)
+)
+(connector
+	(pt 32 96)
+	(pt 64 96)
+)
+(connector
+	(pt 64 96)
+	(pt 160 96)
+)
+(connector
+	(pt 64 592)
+	(pt 472 592)
+)
+(connector
+	(pt 472 592)
+	(pt 744 592)
+)
+(connector
+	(pt 120 376)
+	(pt 160 376)
+)
+(connector
+	(pt 24 376)
+	(pt 120 376)
+)
 (junction (pt 480 568))
 (junction (pt 472 592))
+(junction (pt 120 376))
+(junction (pt 64 96))
