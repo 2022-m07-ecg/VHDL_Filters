@@ -1,0 +1,17 @@
+# system info ADC on 2023.01.16.12:22:35
+system_info:
+name,value
+DEVICE,5CSEMA5F31C6
+DEVICE_FAMILY,Cyclone V
+GENERATION_ID,1673868153
+#
+#
+# Files generated for ADC on 2023.01.16.12:22:35
+files:
+filepath,kind,attributes,module,is_top
+simulation/ADC.vhd,VHDL,,ADC,true
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+ADC.adc_mega_0,ADC_adc_mega_0
