@@ -21,8 +21,8 @@ agreement for further details.
 */
 (header "symbol" (version "1.1"))
 (symbol
-	(rect 16 16 224 128)
-	(text "filter" (rect 5 0 21 12)(font "Arial" ))
+	(rect 16 16 264 128)
+	(text "highpass" (rect 5 0 39 12)(font "Arial" ))
 	(text "inst" (rect 8 96 20 108)(font "Arial" ))
 	(port
 		(pt 0 32)
@@ -48,18 +48,18 @@ agreement for further details.
 	(port
 		(pt 0 80)
 		(input)
-		(text "filter_in[31..0]" (rect 0 0 51 12)(font "Arial" ))
-		(text "filter_in[31..0]" (rect 21 75 72 87)(font "Arial" ))
+		(text "highpass_in[15..0]" (rect 0 0 69 12)(font "Arial" ))
+		(text "highpass_in[15..0]" (rect 21 75 90 87)(font "Arial" ))
 		(line (pt 0 80)(pt 16 80)(line_width 3))
 	)
 	(port
-		(pt 208 32)
+		(pt 248 32)
 		(output)
-		(text "filter_out[31..0]" (rect 0 0 57 12)(font "Arial" ))
-		(text "filter_out[31..0]" (rect 130 27 187 39)(font "Arial" ))
-		(line (pt 208 32)(pt 192 32)(line_width 3))
+		(text "highpass_out[15..0]" (rect 0 0 75 12)(font "Arial" ))
+		(text "highpass_out[15..0]" (rect 152 27 227 39)(font "Arial" ))
+		(line (pt 248 32)(pt 232 32)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 192 96)(line_width 1))
+		(rectangle (rect 16 16 232 96)(line_width 1))
 	)
 )

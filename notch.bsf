@@ -21,8 +21,8 @@ agreement for further details.
 */
 (header "symbol" (version "1.1"))
 (symbol
-	(rect 16 16 224 128)
-	(text "filter_notch" (rect 5 0 48 12)(font "Arial" ))
+	(rect 16 16 240 128)
+	(text "notch" (rect 5 0 26 12)(font "Arial" ))
 	(text "inst" (rect 8 96 20 108)(font "Arial" ))
 	(port
 		(pt 0 32)
@@ -48,18 +48,18 @@ agreement for further details.
 	(port
 		(pt 0 80)
 		(input)
-		(text "filter_in[13..0]" (rect 0 0 51 12)(font "Arial" ))
-		(text "filter_in[13..0]" (rect 21 75 72 87)(font "Arial" ))
+		(text "notch_in[15..0]" (rect 0 0 56 12)(font "Arial" ))
+		(text "notch_in[15..0]" (rect 21 75 77 87)(font "Arial" ))
 		(line (pt 0 80)(pt 16 80)(line_width 3))
 	)
 	(port
-		(pt 208 32)
+		(pt 224 32)
 		(output)
-		(text "filter_out[13..0]" (rect 0 0 57 12)(font "Arial" ))
-		(text "filter_out[13..0]" (rect 130 27 187 39)(font "Arial" ))
-		(line (pt 208 32)(pt 192 32)(line_width 3))
+		(text "notch_out[15..0]" (rect 0 0 62 12)(font "Arial" ))
+		(text "notch_out[15..0]" (rect 141 27 203 39)(font "Arial" ))
+		(line (pt 224 32)(pt 208 32)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 192 96)(line_width 1))
+		(rectangle (rect 16 16 208 96)(line_width 1))
 	)
 )
